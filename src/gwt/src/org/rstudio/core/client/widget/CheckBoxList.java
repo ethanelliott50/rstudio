@@ -102,4 +102,10 @@ public class CheckBoxList extends Composite
 
    private Resources resources_;
    private ListStyle style_;
+
+   public void setElementId(String id)
+   {
+      assignElementId(getElement(), id);
+   }
+
 }
